@@ -2,6 +2,6 @@ language: "node_js"
 node_js: "stable"
 before_script:
   - npm i eslint esm jsdom
-# script:
-  # - npx eslint .
-  # - npx qunit test/index.js
+script:
+  - npx eslint .
+  - npx qunit test/index.js
