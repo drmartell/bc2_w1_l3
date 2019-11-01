@@ -99,3 +99,7 @@ h1 {
     flex-grow: 1;
     line-height: 1.2em;
 }
+
+footer {
+    text-align: center;
+}
